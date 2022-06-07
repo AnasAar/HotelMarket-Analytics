@@ -1,6 +1,6 @@
 import mysql.connector as msql
 
-conn = msql.connect(host='127.0.0.1', user='root',password='Anasaar123@', database="tp2_mysql")
+conn = msql.connect(host='your_host', user='your_username',password='password', database="your_db")
 cursor = conn.cursor()
 
 #tables des dimensions
